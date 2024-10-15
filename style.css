@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    
+    font-family: Poppins;
+    color: white;
+}
+body{
+    background-color: #090909;
+}
+h1{
+    text-align: center;
+}
+#quote{
+    font-size: large;
+    font-weight: 300;
+    text-align: center;
+    background-color: #111111;
+    padding: 30px 40px;
+    border-radius: 5px;
+}
+.button{
+    display: flex;
+    
+}
+.button1{
+    display: flex;
+    background-color: rgba(240, 248, 255, 0);
+    padding: 0px 600px;
+    
+    
+}
+#todo-input{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    height: 30px;
+    border: none;
+    color: none;
+    font-size: large;
+    color: black;
+    border-radius: 4px;
+}
+ul{
+    margin: 20px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    background-color: #111111;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+li{
+    margin: 20px 30px;
+}
+
+#insert{
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 10px auto;
+}
+#clear{
+    color: rgb(255, 255, 255);
+    background-color: rgb(6, 17, 29);
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 10px auto;
+}
+.remo{
+    background-color: red;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 0px 30px;
+}
+.toggle{
+    background-color: white;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    color: black;
+    margin: 10px  auto;
+    
+}
