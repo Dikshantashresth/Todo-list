@@ -93,8 +93,9 @@ toggle.onclick = ()=>{
         contain.style.color = 'white'
         quote.style.color = 'white'
         flag = 1;
-        
-        toggle.textContent = 'light'
+        toggle.style.color="black";
+        toggle.style.backgroundColor = "white";
+        toggle.textContent = 'light';
     }
     else{
         document.body.style.backgroundColor = 'white'
